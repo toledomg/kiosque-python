@@ -17,6 +17,7 @@ pytest --testdox -vvs caminho/para/o/modulo/da/tarefa
 ```
 
 Exemplo:
+
 <ul>
 <li>Tarefa 1</li>
 
@@ -29,6 +30,7 @@ pytest --testdox -vvs tests/tarefas/tarefa_1/
 ```shell
 pytest --testdox -vvs tests/tarefas/tarefa_2/
 ```
+
 <li>Tarefa 3</li>
 
 ```shell
@@ -38,6 +40,7 @@ pytest --testdox -vvs tests/tarefas/tarefa_3/
 </ul>
 
 ### **Importante!!**
+
 Caso esteja utilizando Windows e, ao rodar o comando `pytest --testdox` aparecer um erro de **cmdlet**, troque o inicio do comando pelo seguinte:
 
 ```shell
@@ -56,6 +59,7 @@ pytest --testdox -vvs caminho/para/o/arquivo/de/teste::NomeDaClasse::nome_do_met
 ```shell
 pytest --testdox -vvs tests/tarefas/tarefa_1/test_get_product_by_id.py::TestGetProductById::test_can_get_product_by_id
 ```
+
 <hr>
 <p>Os testes referentes as funcionalidades extras não são executados por padrão caso você não especifique o caminho até eles. Então caso você queira os executar, rode:</p>
 
@@ -70,3 +74,8 @@ Para rodar todos os testes da aplicação de uma vez, execute o seguinte comando
 ```shell
 pytest --testdox
 ```
+
+# Autores:
+
+| [<img src="https://avatars.githubusercontent.com/u/5280561?v=4" width=115><br><sub>Alexsandro Toledo</sub>](https://github.com/toledomg) |
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
